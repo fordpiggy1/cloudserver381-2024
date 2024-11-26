@@ -9,6 +9,7 @@ fs/promises: https://nodejs.org/zh-tw/learn/manipulating-files/reading-files-wit
 */
 const express = require('express');
 const app = express();
+const port = process.env.PORT || 8099;
 const fs = require('node:fs/promises');
 const formidable = require('express-formidable'); 
 app.use(formidable());
