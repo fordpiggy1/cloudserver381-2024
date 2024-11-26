@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 const facebookAuth = {
       'clientID'        : '1120962596113721', 
       'clientSecret'    : 'bbb651865f7b847e19b27b3d78322b6c', 
-      'callbackURL'     : 'http://localhost:8099/auth/facebook/callback'
+      'callbackURL'     : 'https://cloudserver381-2024.onrender.com/auth/facebook/callback'
 };
 
 // MongoDB database info
