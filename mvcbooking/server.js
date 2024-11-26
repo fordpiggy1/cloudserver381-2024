@@ -187,4 +187,6 @@ app.get('/*', (req,res) => {
     */
 })
 
-app.listen(app.listen(process.env.PORT || 8099));
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server is running on http://0.0.0.0:${PORT}`);
+});
