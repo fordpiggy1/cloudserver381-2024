@@ -12,7 +12,7 @@ app.use(formidable());
 // MongoDB setup
 const mongourl = 'mongodb+srv://fordpiggy1:631012chung@cluster123.iyqhy.mongodb.net/?retryWrites=true&w=majority&appName=cluster123'; // Replace with your MongoDB connection string
 const client = new MongoClient(mongourl);
-const dbName = 'test';
+const dbName = 'cluster123';
 const collectionName = "bookings";
 
 // Views
