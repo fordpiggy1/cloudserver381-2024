@@ -10,7 +10,7 @@ const port = process.env.PORT || 10000; // Use the PORT environment variable or 
 app.use(formidable());
 
 // MongoDB setup
-const mongourl = ''; // Replace with your MongoDB connection string
+const mongourl = 'mongodb+srv://fordpiggy1:631012chung@cluster123.iyqhy.mongodb.net/?retryWrites=true&w=majority&appName=cluster123'; // Replace with your MongoDB connection string
 const client = new MongoClient(mongourl);
 const dbName = 'test';
 const collectionName = "bookings";
