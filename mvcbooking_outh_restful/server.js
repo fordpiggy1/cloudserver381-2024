@@ -11,14 +11,14 @@ app.set('view engine', 'ejs');
 
 // FacebookAuth strategy
 const facebookAuth = {
-      'clientID'        : '', 
-      'clientSecret'    : '', 
-      'callbackURL'     : ''
+      'clientID'        : '1120962596113721', 
+      'clientSecret'    : 'bbb651865f7b847e19b27b3d78322b6c', 
+      'callbackURL'     : 'http://localhost:8099/auth/facebook/callback'
 };
 
 // MongoDB database info
-const mongourl = ''
-const dbName = '';
+const mongourl = 'mongodb+srv://fordpiggy1:631012chung@cluster123.iyqhy.mongodb.net/?retryWrites=true&w=majority&appName=cluster123'
+const dbName = 'cluster123';
 const collectionName = "bookings";
 
 // user object to be put in session (for login/logout)
